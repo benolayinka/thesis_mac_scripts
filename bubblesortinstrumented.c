@@ -14,5 +14,5 @@ void bubble_sort(int a[], int n) {
            }
        }
    }
-   printf("%d, %d, %d", ic,jc,kc);
+   printf("ic:%d, jc:%d, kc:%d\n", ic,jc,kc);
 }

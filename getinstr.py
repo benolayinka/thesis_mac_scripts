@@ -1,8 +1,6 @@
 #!/usr/bin/env python
-#
-# To prepare the debugserver for the iOS device see:
-#   http://iphonedevwiki.net/index.php/Debugserver
-#	https://github.com/zeroepoch/ibatlvl/blob/master/lldb-trace.py
+
+#https://github.com/zeroepoch/ibatlvl/blob/master/lldb-trace.py
 
 import sys, os
 import argparse

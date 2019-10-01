@@ -1,0 +1,10 @@
+mult total instruction_count: 7
+Avg current: 301
+Instr	Op	Line
+Store	=	3
+Load	=	3
+Store	=	4
+Load	=	4
+Load	*	5
+Mul	*	5
+Load	*	5

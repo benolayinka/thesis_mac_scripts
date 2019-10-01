@@ -1,0 +1,14 @@
+ddot_r total instruction_count: 11
+Avg current: 301
+Instr	Op	Line
+Load	[	1
+Load	[	1
+Jump	for	4
+Store	=	4
+Load	=	4
+Load	<	4
+Cmp	<	4
+Load	<	4
+Load	++	4
+Add	++	4
+Store	++	4

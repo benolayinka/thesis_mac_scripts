@@ -1,67 +1,26 @@
-0x100000f80	a.out`main	pushq	%rbp	1	False
-0x100000f81	a.out`main + 1	movq	%rsp, %rbp	1	False
-0x100000f84	a.out`main + 4	subq	$0x10, %rsp	1	False
-0x100000f88	a.out`main + 8	leaq	0x71(%rip), %rdi	1	False
-0x100000f8f	a.out`main + 15	movl	$0x0, -0x4(%rbp)	1	False
-0x100000f96	a.out`main + 22	movl	0x8c(%rip), %esi	1	False
-0x100000f9c	a.out`main + 28	callq	0x10b161eb0	1	True
-0x100000eb0	a.out`bubble_sort(int*, int)	pushq	%rbp	1	False
-0x100000eb1	a.out`bubble_sort(int*, int) + 1	movq	%rsp, %rbp	1	False
-0x100000eb4	a.out`bubble_sort(int*, int) + 4	movq	%rdi, -0x8(%rbp)	1	False
-0x100000eb8	a.out`bubble_sort(int*, int) + 8	movl	%esi, -0xc(%rbp)	1	False
-0x100000ebb	a.out`bubble_sort(int*, int) + 11	movl	$0x0, -0x10(%rbp)	1	False
-0x100000ec2	a.out`bubble_sort(int*, int) + 18	movl	$0x0, -0x14(%rbp)	1	False
-0x100000ec9	a.out`bubble_sort(int*, int) + 25	movl	$0x0, -0x10(%rbp)	1	False
-0x100000ed0	a.out`bubble_sort(int*, int) + 32	movl	-0x10(%rbp), %eax	11	False
-0x100000ed3	a.out`bubble_sort(int*, int) + 35	cmpl	-0xc(%rbp), %eax	11	False
-0x100000ed6	a.out`bubble_sort(int*, int) + 38	jge	0x10b161f7a	11	True
-0x100000edc	a.out`bubble_sort(int*, int) + 44	movl	$0x0, -0x14(%rbp)	10	False
-0x100000ee3	a.out`bubble_sort(int*, int) + 51	movl	-0x14(%rbp), %eax	55	False
-0x100000ee6	a.out`bubble_sort(int*, int) + 54	movl	-0xc(%rbp), %ecx	55	False
-0x100000ee9	a.out`bubble_sort(int*, int) + 57	subl	-0x10(%rbp), %ecx	55	False
-0x100000eec	a.out`bubble_sort(int*, int) + 60	subl	$0x1, %ecx	55	False
-0x100000eef	a.out`bubble_sort(int*, int) + 63	cmpl	%ecx, %eax	55	False
-0x100000ef1	a.out`bubble_sort(int*, int) + 65	jge	0x10b161f67	55	True
-0x100000ef7	a.out`bubble_sort(int*, int) + 71	movq	-0x8(%rbp), %rax	45	False
-0x100000efb	a.out`bubble_sort(int*, int) + 75	movslq	-0x14(%rbp), %rcx	45	False
-0x100000eff	a.out`bubble_sort(int*, int) + 79	movl	(%rax,%rcx,4), %edx	45	False
-0x100000f02	a.out`bubble_sort(int*, int) + 82	movq	-0x8(%rbp), %rax	45	False
-0x100000f06	a.out`bubble_sort(int*, int) + 86	movl	-0x14(%rbp), %esi	45	False
-0x100000f09	a.out`bubble_sort(int*, int) + 89	addl	$0x1, %esi	45	False
-0x100000f0c	a.out`bubble_sort(int*, int) + 92	movslq	%esi, %rcx	45	False
-0x100000f0f	a.out`bubble_sort(int*, int) + 95	cmpl	(%rax,%rcx,4), %edx	45	False
-0x100000f12	a.out`bubble_sort(int*, int) + 98	jle	0x10b161f54	45	True
-0x100000f54	a.out`bubble_sort(int*, int) + 164	jmp	0x10b161f59	45	True
-0x100000f59	a.out`bubble_sort(int*, int) + 169	movl	-0x14(%rbp), %eax	45	False
-0x100000f5c	a.out`bubble_sort(int*, int) + 172	addl	$0x1, %eax	45	False
-0x100000f5f	a.out`bubble_sort(int*, int) + 175	movl	%eax, -0x14(%rbp)	45	False
-0x100000f62	a.out`bubble_sort(int*, int) + 178	jmp	0x10b161ee3	45	True
-0x100000f18	a.out`bubble_sort(int*, int) + 104	movq	-0x8(%rbp), %rax	23	False
-0x100000f1c	a.out`bubble_sort(int*, int) + 108	movslq	-0x14(%rbp), %rcx	23	False
-0x100000f20	a.out`bubble_sort(int*, int) + 112	movl	(%rax,%rcx,4), %edx	23	False
-0x100000f23	a.out`bubble_sort(int*, int) + 115	movl	%edx, -0x18(%rbp)	23	False
-0x100000f26	a.out`bubble_sort(int*, int) + 118	movq	-0x8(%rbp), %rax	23	False
-0x100000f2a	a.out`bubble_sort(int*, int) + 122	movl	-0x14(%rbp), %edx	23	False
-0x100000f2d	a.out`bubble_sort(int*, int) + 125	addl	$0x1, %edx	23	False
-0x100000f30	a.out`bubble_sort(int*, int) + 128	movslq	%edx, %rcx	23	False
-0x100000f33	a.out`bubble_sort(int*, int) + 131	movl	(%rax,%rcx,4), %edx	23	False
-0x100000f36	a.out`bubble_sort(int*, int) + 134	movq	-0x8(%rbp), %rax	23	False
-0x100000f3a	a.out`bubble_sort(int*, int) + 138	movslq	-0x14(%rbp), %rcx	23	False
-0x100000f3e	a.out`bubble_sort(int*, int) + 142	movl	%edx, (%rax,%rcx,4)	23	False
-0x100000f41	a.out`bubble_sort(int*, int) + 145	movl	-0x18(%rbp), %edx	23	False
-0x100000f44	a.out`bubble_sort(int*, int) + 148	movq	-0x8(%rbp), %rax	23	False
-0x100000f48	a.out`bubble_sort(int*, int) + 152	movl	-0x14(%rbp), %esi	23	False
-0x100000f4b	a.out`bubble_sort(int*, int) + 155	addl	$0x1, %esi	23	False
-0x100000f4e	a.out`bubble_sort(int*, int) + 158	movslq	%esi, %rcx	23	False
-0x100000f51	a.out`bubble_sort(int*, int) + 161	movl	%edx, (%rax,%rcx,4)	23	False
-0x100000f67	a.out`bubble_sort(int*, int) + 183	jmp	0x10b161f6c	10	True
-0x100000f6c	a.out`bubble_sort(int*, int) + 188	movl	-0x10(%rbp), %eax	10	False
-0x100000f6f	a.out`bubble_sort(int*, int) + 191	addl	$0x1, %eax	10	False
-0x100000f72	a.out`bubble_sort(int*, int) + 194	movl	%eax, -0x10(%rbp)	10	False
-0x100000f75	a.out`bubble_sort(int*, int) + 197	jmp	0x10b161ed0	10	True
-0x100000f7a	a.out`bubble_sort(int*, int) + 202	popq	%rbp	1	False
-0x100000f7b	a.out`bubble_sort(int*, int) + 203	retq		1	True
-0x100000fa1	a.out`main + 33	xorl	%eax, %eax	1	False
-0x100000fa3	a.out`main + 35	addq	$0x10, %rsp	1	False
-0x100000fa7	a.out`main + 39	popq	%rbp	1	False
-0x100000fa8	a.out`main + 40	retq		1	True
+total: 25
+a.out`main	pushq	%rbp	1	False
+a.out`main + 1	movq	%rsp, %rbp	1	False
+a.out`main + 4	callq	0x102623e30	1	True
+a.out`ddot_r	pushq	%rbp	1	False
+a.out`ddot_r + 1	movq	%rsp, %rbp	1	False
+a.out`ddot_r + 4	subq	$0x90, %rsp	1	False
+a.out`ddot_r + 11	leaq	0x14e(%rip), %rax	1	False
+a.out`ddot_r + 18	movl	$0x28, %ecx	1	False
+a.out`ddot_r + 23	movl	%ecx, %edx	1	False
+a.out`ddot_r + 25	leaq	-0x60(%rbp), %rsi	1	False
+a.out`ddot_r + 29	leaq	0x10c(%rip), %rdi	1	False
+a.out`ddot_r + 36	leaq	-0x30(%rbp), %r8	1	False
+a.out`ddot_r + 40	movq	0x1b1(%rip), %r9	1	False
+a.out`ddot_r + 47	movq	(%r9), %r9	1	False
+a.out`ddot_r + 50	movq	%r9, -0x8(%rbp)	1	False
+a.out`ddot_r + 54	movl	$0xa, -0x64(%rbp)	1	False
+a.out`ddot_r + 61	movq	%rdi, -0x78(%rbp)	1	False
+a.out`ddot_r + 65	movq	%r8, %rdi	1	False
+a.out`ddot_r + 68	movq	-0x78(%rbp), %r8	1	False
+a.out`ddot_r + 72	movq	%rsi, -0x80(%rbp)	1	False
+a.out`ddot_r + 76	movq	%r8, %rsi	1	False
+a.out`ddot_r + 79	movq	%rdx, -0x88(%rbp)	1	False
+a.out`ddot_r + 86	movq	%rax, -0x90(%rbp)	1	False
+a.out`ddot_r + 93	callq	0x102623f32	1	True
+a.out`symbol stub for: memcpy	jmpq	*0xe8(%rip)	1	True

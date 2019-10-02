@@ -19,9 +19,11 @@ class Call(object):
 class Calls():
 	def __init__(self):
 		self.calls = OrderedDict()
+		self.count = 0
 
 	def add_call(self, call):
 		addr = call.file_address
+		self.count = self.count + 1
 		if self.calls.get(addr):
 			self.calls.get(addr).count += 1
 		else:
@@ -30,9 +32,10 @@ class Calls():
 	def print_to_file(self,filename):
 		with open(filename, 'w') as f:
 			#f.write(tabulate(self.calls))
+			f.write('total: ')
+			f.write(str(self.count))
+			f.write('\n')
 			for file_address,call in self.calls.items():
-				f.write(str(hex(file_address)))
-				f.write('\t')
 				f.write(str(call.section_address))
 				f.write('\t')
 				f.write(str(call.opcode))

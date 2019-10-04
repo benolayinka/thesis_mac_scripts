@@ -1,26 +1,46 @@
-total: 25
+total: 45
 a.out`main	pushq	%rbp	1	False
 a.out`main + 1	movq	%rsp, %rbp	1	False
-a.out`main + 4	callq	0x102623e30	1	True
-a.out`ddot_r	pushq	%rbp	1	False
-a.out`ddot_r + 1	movq	%rsp, %rbp	1	False
-a.out`ddot_r + 4	subq	$0x90, %rsp	1	False
-a.out`ddot_r + 11	leaq	0x14e(%rip), %rax	1	False
-a.out`ddot_r + 18	movl	$0x28, %ecx	1	False
-a.out`ddot_r + 23	movl	%ecx, %edx	1	False
-a.out`ddot_r + 25	leaq	-0x60(%rbp), %rsi	1	False
-a.out`ddot_r + 29	leaq	0x10c(%rip), %rdi	1	False
-a.out`ddot_r + 36	leaq	-0x30(%rbp), %r8	1	False
-a.out`ddot_r + 40	movq	0x1b1(%rip), %r9	1	False
-a.out`ddot_r + 47	movq	(%r9), %r9	1	False
-a.out`ddot_r + 50	movq	%r9, -0x8(%rbp)	1	False
-a.out`ddot_r + 54	movl	$0xa, -0x64(%rbp)	1	False
-a.out`ddot_r + 61	movq	%rdi, -0x78(%rbp)	1	False
-a.out`ddot_r + 65	movq	%r8, %rdi	1	False
-a.out`ddot_r + 68	movq	-0x78(%rbp), %r8	1	False
-a.out`ddot_r + 72	movq	%rsi, -0x80(%rbp)	1	False
-a.out`ddot_r + 76	movq	%r8, %rsi	1	False
-a.out`ddot_r + 79	movq	%rdx, -0x88(%rbp)	1	False
-a.out`ddot_r + 86	movq	%rax, -0x90(%rbp)	1	False
-a.out`ddot_r + 93	callq	0x102623f32	1	True
-a.out`symbol stub for: memcpy	jmpq	*0xe8(%rip)	1	True
+a.out`main + 4	callq	0x10b5f7f10	1	True
+a.out`bilinear	pushq	%rbp	1	False
+a.out`bilinear + 1	movq	%rsp, %rbp	1	False
+a.out`bilinear + 4	movl	$0x20, %eax	1	False
+a.out`bilinear + 9	movl	$0xe300deda, -0x4(%rbp)	1	False
+a.out`bilinear + 16	movl	$0xe708c30b, -0x8(%rbp)	1	False
+a.out`bilinear + 23	movl	$0x3772fa1e, -0xc(%rbp)	1	False
+a.out`bilinear + 30	movl	$0xeb4be5d8, -0x10(%rbp)	1	False
+a.out`bilinear + 37	movl	$0xf7c0f6ed, -0x14(%rbp)	1	False
+a.out`bilinear + 44	movl	$0xc5185433, -0x18(%rbp)	1	False
+a.out`bilinear + 51	movl	-0x14(%rbp), %ecx	1	False
+a.out`bilinear + 54	movl	%eax, %edx	1	False
+a.out`bilinear + 56	subl	%ecx, %edx	1	False
+a.out`bilinear + 58	xorl	$0x2, %edx	1	False
+a.out`bilinear + 61	movl	%edx, -0x1c(%rbp)	1	False
+a.out`bilinear + 64	movl	-0x18(%rbp), %ecx	1	False
+a.out`bilinear + 67	subl	%ecx, %eax	1	False
+a.out`bilinear + 69	xorl	$0x2, %eax	1	False
+a.out`bilinear + 72	movl	%eax, -0x20(%rbp)	1	False
+a.out`bilinear + 75	movl	-0x4(%rbp), %eax	1	False
+a.out`bilinear + 78	imull	-0x1c(%rbp), %eax	1	False
+a.out`bilinear + 82	imull	-0x20(%rbp), %eax	1	False
+a.out`bilinear + 86	movl	-0x8(%rbp), %ecx	1	False
+a.out`bilinear + 89	movl	-0x14(%rbp), %edx	1	False
+a.out`bilinear + 92	imull	%edx, %ecx	1	False
+a.out`bilinear + 95	imull	-0x20(%rbp), %ecx	1	False
+a.out`bilinear + 99	addl	%ecx, %eax	1	False
+a.out`bilinear + 101	movl	-0xc(%rbp), %ecx	1	False
+a.out`bilinear + 104	imull	-0x1c(%rbp), %ecx	1	False
+a.out`bilinear + 108	movl	-0x18(%rbp), %edx	1	False
+a.out`bilinear + 111	imull	%edx, %ecx	1	False
+a.out`bilinear + 114	addl	%ecx, %eax	1	False
+a.out`bilinear + 116	movl	-0x10(%rbp), %ecx	1	False
+a.out`bilinear + 119	movl	-0x14(%rbp), %edx	1	False
+a.out`bilinear + 122	imull	%edx, %ecx	1	False
+a.out`bilinear + 125	movl	-0x18(%rbp), %edx	1	False
+a.out`bilinear + 128	imull	%edx, %ecx	1	False
+a.out`bilinear + 131	addl	%ecx, %eax	1	False
+a.out`bilinear + 133	movl	%eax, -0x24(%rbp)	1	False
+a.out`bilinear + 136	popq	%rbp	1	False
+a.out`bilinear + 137	retq		1	True
+a.out`main + 9	popq	%rbp	1	False
+a.out`main + 10	retq		1	True
